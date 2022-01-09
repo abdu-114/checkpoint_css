@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+header nav .navbar li {
+    display: inline-block;
+    list-style: none;
+
+    color: black;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.container1 {
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2 {
+    background-color: black;
+    color: white;
+
+}
+main {
+    display: flex;
+}
+.text {
+    font-size: 2rem;
+    margin-top: 60px
+}
+button {
+    margin-top: 30px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    font-size: 2rem;
+}
+form {
+    margin-top: 40px;
+}
+form input{
+    background-color: black;
+    border: solid white 1px;
+    font-size: 2rem;
+    padding: 15px 25px;
+    margin-right: 25px;
+    color: white;
+}
+.email {
+    margin-top: 25px;
+    width: 935px;
+}
